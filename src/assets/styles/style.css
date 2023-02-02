@@ -1,0 +1,91 @@
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --grey-color: #BFBFBF;
+    --white-grey-color: #DBDBDB;
+    --dark-grey-color: #515151;
+    --red-color: #FF2E00;
+
+    --fz16: 1rem;
+    --fz14: 0.875rem;
+    --fz12: 0.75rem;
+    --fz18: 1.125rem;
+    --fz20: 1.25rem;
+    --fz24: 1.5rem;
+    --fz36: 2.25rem;
+    --fz48: 3rem;
+}
+
+body, button, input, textarea, option{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.container {
+    max-width: calc(981px + 24px);
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.card {
+    display: block;
+    border: 1px solid var(--grey-color);
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card__item{
+    padding: 8px;
+}
+
+.card__price-p{
+    font-size: var(--fz14);
+    color: var(--black-color);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.card__title-p{
+    color: var(--black-color);
+    font-size: var(--fz12);
+    font-weight: 400;
+}
+
+.card__size{
+    display: flex;
+    transition: all 0.5s ;
+}
+
+.card__size-p{
+    margin-top: 33px;
+    color: var(--dark-grey-color);
+    font-size:var(--fz12);
+    margin-right: 8px;
+    
+}
+
+.none{
+    display: none;
+}
+
+.mb2{
+    margin-bottom: 2px;
+}
+
+.h6-title{
+    font-size: var(--fz18);
+    font-weight: 700;
+}
