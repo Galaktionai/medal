@@ -78,11 +78,6 @@
                         <h6 class="h6-title">
                             Одежда
                         </h6>
-                        <v-select 
-                            :options="categories"
-                            @select="sortByCategories"
-                            :selected="selected"
-                        />
                     </div>
                     
                     <div class="catalog__carts__produkcts">
@@ -101,14 +96,12 @@
 
 <script>
     import vCard from './v-card'
-    import vSelect from './v-select'
     import { mapActions, mapGetters } from 'vuex';
 
     export default{
         name: 'v-catalog',
         components: {
             vCard,
-            vSelect
         },
         data() {
             return {
