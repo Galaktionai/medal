@@ -51,7 +51,10 @@
                 </div>
             </div>
         </div>
-        <v-cart :cart_data="CART"/>
+        <v-cart 
+            :cart_data="CART"
+             v-bind="tovars_data"
+        >
     </div>
 </template>
 

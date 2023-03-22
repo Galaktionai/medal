@@ -8,7 +8,7 @@
                 <div class="v-cart-item__item__discription">
                     <h4 class="v-cart-item__item__discription-type">{{cart_item_data.type}}</h4>
                     <p class="v-cart-item__item__discription-brand">{{cart_item_data.brand}}</p>
-                    <p class="v-cart-item__item__discription-size">size</p>
+                    <p class="v-cart-item__item__discription-size">{{tovars_data.sizes}}</p>
                     <p class="v-cart-item__item__discription-data">data</p>
                 </div>
                 <div class="v-cart-item__item__btns">
